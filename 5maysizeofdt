@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int result;
+	result = sizeof(char);
+	cout<< "The size of char data type is :" << result << "bytes. \n";
+		result = sizeof(int);
+	cout<< "The size of int data type is :" << result << "bytes. \n";
+		result = sizeof(float);
+	cout<< "The size of float data type is :" << result << "bytes. \n";
+		result = sizeof(double);
+	cout<< "The size of double data type is :" << result << "bytes.";
+	return 0; 
+}
